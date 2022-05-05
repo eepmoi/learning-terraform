@@ -1,0 +1,16 @@
+git clone git@github.com:eepmoi/learning-terraform.git
+
+git checkout -b update-readme-onboarding
+git push -u origin update-readme-onboarding
+
+git commit -m "Add dot_notation"
+
+git push origin feature:andy -f
+
+git add -u ; git commit --amend --no-edit; git push -f
+git add . ; git commit --amend --no-edit; git push -f
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+terraform
+
+terraform apply -auto-approve
